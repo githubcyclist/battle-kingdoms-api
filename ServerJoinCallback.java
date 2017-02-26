@@ -1,3 +1,3 @@
 public interface ServerJoinCallback {
-  public void joinServer() throws Exception;
+  public void joinServer(String serverName) throws Exception;
 }
