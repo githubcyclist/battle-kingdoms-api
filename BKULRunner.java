@@ -1,5 +1,5 @@
 public class BKULRunner {
-  public static void run(ServerJoinCallback s) {
-    s.join();
+  public static void run(String server, ServerJoinCallback s) {
+    s.join(server);
   }
 }
